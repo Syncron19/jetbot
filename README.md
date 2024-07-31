@@ -11,8 +11,8 @@ cd jetbot
 ./install.sh
 source ~/.bashrc
 
-# Installing Tensorflow
-sh ./tf_install.sh      
+# Installing Tensorflow (used with all models)
+sh ./tf_install.sh   
 
 ```
 
