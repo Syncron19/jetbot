@@ -1,5 +1,4 @@
-#Jetbot-Orin
-
+## Jetbot with Jetson Orin Nano
 
 Software setup for Jetbot using the Jetson Orin Nano
 
@@ -29,10 +28,7 @@ For camera testing:
 - If the Jetson Nano is connected to a monitor, run
 
 ```
-
 nvgstcapture-1.0
-
-
 ```
 - Otherwise, to view the camera feed remotely, run the following with jetson-inference installed (replace ```IP``` with address of receiving device):
 
