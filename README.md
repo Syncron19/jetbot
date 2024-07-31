@@ -1,4 +1,4 @@
-##Jetbot with Jetson Orin Nano
+## Jetbot with Jetson Orin Nano
 
 Software setup for Jetbot using the Jetson Orin Nano
 
