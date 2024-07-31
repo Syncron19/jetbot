@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# For the most up to date version of TensorFlow please use the following link
+# https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html
 sudo apt-get update
 sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev liblapack-dev libblas-dev gfortran -y
 sudo apt-get install python3-pip -y
