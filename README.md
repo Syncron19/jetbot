@@ -13,9 +13,7 @@ source ~/.bashrc
 
 # Installing Tensorflow (used with all models)
 sh ./tf_install.sh   
-
 ```
-
 ### Testing
 Test motors with:
 ```
@@ -45,15 +43,14 @@ sudo python3 carfollowing.py
 Whether you need "--flip-method=rotate-180" may depends on the orientation of your camera.
 ```
 cd ~/jetbot/data-collection
-sudo python3 image-capture-single.py --flip-method=rotate-180
+python3 image-capture-single.py --flip-method=rotate-180
 ```
 You can use other scripts inside the folder for other methods of capturing videos or images.
 
 ### Testing Folder
 All code in this folder is still being developed, but is significant for further development for the Jetson Orin Nano.
 
-NanoOWL
-Follow these instructions to be able to run NanoOWL libraries referenced.
+Follow these instructions to be able to run "NanoOWL_pilot.py" libraries referenced.
 ```
 cd~
 git clone https://github.com/NVIDIA-AI-IOT/nanoowl 
